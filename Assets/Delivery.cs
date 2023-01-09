@@ -7,6 +7,7 @@ public class Delivery : MonoBehaviour
     Driver playerOne;
     
     [SerializeField] bool hasPackage = false;
+    [SerializeField] float destroyDelay = 0.5f;
     void Start()
     {
         playerOne = FindObjectOfType<Driver>().GetComponent<Driver>();
@@ -17,7 +18,8 @@ public class Delivery : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other) {
         if (other.tag == "Package")
-        {
+        { 
+            Destroy(other, destroyDelay);
             Debug.Log("Package Picked Up!");
             hasPackage = true;
             
@@ -36,7 +38,6 @@ public class Delivery : MonoBehaviour
         else
         {
             Debug.Log("Triggerred");
-            
         }  
     }
 }
