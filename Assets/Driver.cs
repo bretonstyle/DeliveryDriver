@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Driver : MonoBehaviour
 {
-    int hitPoints = 20;
+    public int score = 0;
     [SerializeField] float steerSpeed = 200f;
     [SerializeField] float moveSpeed = 10f;
 
@@ -13,6 +13,14 @@ public class Driver : MonoBehaviour
             
     }
 
+    public int GetScore()
+    {
+        return score;    
+    }
+    public void SetScore(int scoreToSet)
+    {
+        score = scoreToSet;
+    }
     void Update()
     {
         //Define this here so we find it every frame
@@ -20,5 +28,7 @@ public class Driver : MonoBehaviour
         float moveAmount = Input.GetAxis("Vertical") * moveSpeed * Time.deltaTime;
         transform.Rotate(0, 0, -steerAmount);
         transform.Translate(0, moveAmount, 0);
+        
+        
     }
 }
