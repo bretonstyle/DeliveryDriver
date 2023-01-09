@@ -15,7 +15,8 @@ public class Delivery : MonoBehaviour
     
     void Start()
     {
-        playerOne = FindObjectOfType<Driver>().GetComponent<Driver>();
+        //Driver is attached to the same component (SpeedyCivic), so is the Sprite Renderer
+        playerOne = GetComponent<Driver>();
         spriteRenderer = GetComponent<SpriteRenderer>();
     }
     void OnCollisionEnter2D(Collision2D other) {
