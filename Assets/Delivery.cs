@@ -13,16 +13,15 @@ public class Delivery : MonoBehaviour
         playerOne = FindObjectOfType<Driver>().GetComponent<Driver>();
     }
     void OnCollisionEnter2D(Collision2D other) {
-        Debug.Log("Big ass collision");
+        Debug.Log("Whoops!");
     }
 
     void OnTriggerEnter2D(Collider2D other) {
-        if (other.tag == "Package")
+        if (other.tag == "Package" && !hasPackage)
         { 
-            Destroy(other, destroyDelay);
+            Destroy(other.gameObject, destroyDelay);
             Debug.Log("Package Picked Up!");
             hasPackage = true;
-            
         }      
         else if (other.tag == "Customer" && hasPackage == true)
         {
@@ -31,13 +30,5 @@ public class Delivery : MonoBehaviour
             playerOne.SetScore(playerOne.GetScore() + 1);
             Debug.Log("New score ==" + playerOne.GetScore());
         }
-        else if (other.tag == "Customer" && hasPackage == false)
-        {
-            Debug.Log("No package to deliver!");            
-        }
-        else
-        {
-            Debug.Log("Triggerred");
-        }  
     }
 }
