@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 35932099}
   m_Layer: 0
   m_Name: Tree 4 (4)
-  m_TagString: Untagged
+  m_TagString: Bumps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -331,7 +331,7 @@ GameObject:
   - component: {fileID: 108973628}
   m_Layer: 0
   m_Name: Tree 1 (6)
-  m_TagString: Untagged
+  m_TagString: Bumps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -526,7 +526,7 @@ GameObject:
   - component: {fileID: 186021050}
   m_Layer: 0
   m_Name: Rocks 1 (14)
-  m_TagString: Untagged
+  m_TagString: Bumps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -721,7 +721,7 @@ GameObject:
   - component: {fileID: 206713143}
   m_Layer: 0
   m_Name: Tree 2
-  m_TagString: Untagged
+  m_TagString: Bumps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -832,7 +832,7 @@ GameObject:
   - component: {fileID: 218230548}
   m_Layer: 0
   m_Name: Rocks 1 (15)
-  m_TagString: Untagged
+  m_TagString: Bumps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -943,7 +943,7 @@ GameObject:
   - component: {fileID: 220408720}
   m_Layer: 0
   m_Name: Tree 1 (4)
-  m_TagString: Untagged
+  m_TagString: Bumps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1054,7 +1054,7 @@ GameObject:
   - component: {fileID: 242713680}
   m_Layer: 0
   m_Name: Tree 2 (2)
-  m_TagString: Untagged
+  m_TagString: Bumps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1162,6 +1162,8 @@ GameObject:
   m_Component:
   - component: {fileID: 243628038}
   - component: {fileID: 243628039}
+  - component: {fileID: 243628041}
+  - component: {fileID: 243628040}
   m_Layer: 0
   m_Name: Bridge
   m_TagString: Untagged
@@ -1236,6 +1238,58 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &243628040
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 243628037}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -7.7239456}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 39.986668, y: 19.349018}
+    newSize: {x: 39.986668, y: 19.349018}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 39.986668, y: 4.8373604}
+  m_EdgeRadius: 0
+--- !u!61 &243628041
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 243628037}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 7.8409986}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 39.986668, y: 19.349018}
+    newSize: {x: 39.986668, y: 19.349018}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 39.986664, y: 3.66712}
+  m_EdgeRadius: 0
 --- !u!1 &300582443
 GameObject:
   m_ObjectHideFlags: 0
@@ -1333,7 +1387,7 @@ GameObject:
   - component: {fileID: 357536779}
   m_Layer: 0
   m_Name: Tree 1 (8)
-  m_TagString: Untagged
+  m_TagString: Bumps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1444,7 +1498,7 @@ GameObject:
   - component: {fileID: 359508219}
   m_Layer: 0
   m_Name: Tree 2 (1)
-  m_TagString: Untagged
+  m_TagString: Bumps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1555,7 +1609,7 @@ GameObject:
   - component: {fileID: 361698476}
   m_Layer: 0
   m_Name: Tree 4
-  m_TagString: Untagged
+  m_TagString: Bumps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1666,7 +1720,7 @@ GameObject:
   - component: {fileID: 422827706}
   m_Layer: 0
   m_Name: House 2 (4)
-  m_TagString: Untagged
+  m_TagString: Bumps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1945,7 +1999,7 @@ GameObject:
   - component: {fileID: 426323174}
   m_Layer: 0
   m_Name: Rocks 1 (2)
-  m_TagString: Untagged
+  m_TagString: Bumps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2224,7 +2278,7 @@ GameObject:
   - component: {fileID: 471317084}
   m_Layer: 0
   m_Name: Tree 2 (3)
-  m_TagString: Untagged
+  m_TagString: Bumps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2544,7 +2598,7 @@ GameObject:
   - component: {fileID: 538813716}
   m_Layer: 0
   m_Name: House 3
-  m_TagString: Untagged
+  m_TagString: Bumps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2655,7 +2709,7 @@ GameObject:
   - component: {fileID: 572304282}
   m_Layer: 0
   m_Name: House 1
-  m_TagString: Untagged
+  m_TagString: Bumps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2850,7 +2904,7 @@ GameObject:
   - component: {fileID: 588092561}
   m_Layer: 0
   m_Name: Tree 1 (5)
-  m_TagString: Untagged
+  m_TagString: Bumps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3129,7 +3183,7 @@ GameObject:
   - component: {fileID: 627170793}
   m_Layer: 0
   m_Name: Tree 3 (2)
-  m_TagString: Untagged
+  m_TagString: Bumps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3324,7 +3378,7 @@ GameObject:
   - component: {fileID: 640242925}
   m_Layer: 0
   m_Name: Rocks 1 (10)
-  m_TagString: Untagged
+  m_TagString: Bumps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3435,7 +3489,7 @@ GameObject:
   - component: {fileID: 657728436}
   m_Layer: 0
   m_Name: House 2 (3)
-  m_TagString: Untagged
+  m_TagString: Bumps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3714,7 +3768,7 @@ GameObject:
   - component: {fileID: 726957107}
   m_Layer: 0
   m_Name: House 3 (3)
-  m_TagString: Untagged
+  m_TagString: Bumps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3909,7 +3963,7 @@ GameObject:
   - component: {fileID: 774992783}
   m_Layer: 0
   m_Name: Rocks 1
-  m_TagString: Untagged
+  m_TagString: Bumps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4020,7 +4074,7 @@ GameObject:
   - component: {fileID: 811571128}
   m_Layer: 0
   m_Name: Rocks 1 (12)
-  m_TagString: Untagged
+  m_TagString: Bumps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4215,7 +4269,7 @@ GameObject:
   - component: {fileID: 902349055}
   m_Layer: 0
   m_Name: Tree 4 (2)
-  m_TagString: Untagged
+  m_TagString: Bumps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4494,7 +4548,7 @@ GameObject:
   - component: {fileID: 934464211}
   m_Layer: 0
   m_Name: Tree 1 (3)
-  m_TagString: Untagged
+  m_TagString: Bumps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4689,7 +4743,7 @@ GameObject:
   - component: {fileID: 952073586}
   m_Layer: 0
   m_Name: Tree 1 (2)
-  m_TagString: Untagged
+  m_TagString: Bumps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4995,7 +5049,7 @@ GameObject:
   - component: {fileID: 1007595390}
   m_Layer: 0
   m_Name: Tree 3 (3)
-  m_TagString: Untagged
+  m_TagString: Bumps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5106,7 +5160,7 @@ GameObject:
   - component: {fileID: 1009321611}
   m_Layer: 0
   m_Name: Tree 3 (1)
-  m_TagString: Untagged
+  m_TagString: Bumps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5216,7 +5270,7 @@ GameObject:
   - component: {fileID: 1045230193}
   m_Layer: 0
   m_Name: In Between Houses
-  m_TagString: Untagged
+  m_TagString: Bumps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5275,7 +5329,7 @@ GameObject:
   - component: {fileID: 1047901839}
   m_Layer: 0
   m_Name: Tree 4 (6)
-  m_TagString: Untagged
+  m_TagString: Bumps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5386,7 +5440,7 @@ GameObject:
   - component: {fileID: 1050262406}
   m_Layer: 0
   m_Name: Rocks 1 (18)
-  m_TagString: Untagged
+  m_TagString: Bumps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5497,7 +5551,7 @@ GameObject:
   - component: {fileID: 1075878020}
   m_Layer: 0
   m_Name: Rocks 1 (11)
-  m_TagString: Untagged
+  m_TagString: Bumps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5608,7 +5662,7 @@ GameObject:
   - component: {fileID: 1080276681}
   m_Layer: 0
   m_Name: Tree 2
-  m_TagString: Untagged
+  m_TagString: Bumps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5803,7 +5857,7 @@ GameObject:
   - component: {fileID: 1089433886}
   m_Layer: 0
   m_Name: Rocks 1 (3)
-  m_TagString: Untagged
+  m_TagString: Bumps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5914,7 +5968,7 @@ GameObject:
   - component: {fileID: 1097851323}
   m_Layer: 0
   m_Name: Rocks 1 (20)
-  m_TagString: Untagged
+  m_TagString: Bumps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6177,7 +6231,7 @@ GameObject:
   - component: {fileID: 1161003141}
   m_Layer: 0
   m_Name: Tree 1
-  m_TagString: Untagged
+  m_TagString: Bumps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6288,7 +6342,7 @@ GameObject:
   - component: {fileID: 1227131355}
   m_Layer: 0
   m_Name: Tree 1 (7)
-  m_TagString: Untagged
+  m_TagString: Bumps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6399,7 +6453,7 @@ GameObject:
   - component: {fileID: 1232944797}
   m_Layer: 0
   m_Name: Tree 3 (4)
-  m_TagString: Untagged
+  m_TagString: Bumps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6510,7 +6564,7 @@ GameObject:
   - component: {fileID: 1293589458}
   m_Layer: 0
   m_Name: Tree 3
-  m_TagString: Untagged
+  m_TagString: Bumps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6732,7 +6786,7 @@ GameObject:
   - component: {fileID: 1327375787}
   m_Layer: 0
   m_Name: Rocks 1 (7)
-  m_TagString: Untagged
+  m_TagString: Bumps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6843,7 +6897,7 @@ GameObject:
   - component: {fileID: 1329543208}
   m_Layer: 0
   m_Name: Rocks 1 (5)
-  m_TagString: Untagged
+  m_TagString: Bumps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6954,7 +7008,7 @@ GameObject:
   - component: {fileID: 1352239782}
   m_Layer: 0
   m_Name: House 1 (1)
-  m_TagString: Untagged
+  m_TagString: Bumps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7065,7 +7119,7 @@ GameObject:
   - component: {fileID: 1366323704}
   m_Layer: 0
   m_Name: House 1
-  m_TagString: Untagged
+  m_TagString: Bumps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7344,7 +7398,7 @@ GameObject:
   - component: {fileID: 1446384258}
   m_Layer: 0
   m_Name: House 3 (2)
-  m_TagString: Untagged
+  m_TagString: Bumps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7722,7 +7776,7 @@ GameObject:
   - component: {fileID: 1480520355}
   m_Layer: 0
   m_Name: Rocks 1 (19)
-  m_TagString: Untagged
+  m_TagString: Bumps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7855,6 +7909,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   steerSpeed: 200
   moveSpeed: 20
+  boostSpeed: 30
+  slowSpeed: 10
+  normalSpeed: 20
 --- !u!212 &1482209727
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8002,7 +8059,7 @@ GameObject:
   - component: {fileID: 1485813486}
   m_Layer: 0
   m_Name: House 2 (1)
-  m_TagString: Untagged
+  m_TagString: Bumps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8113,7 +8170,7 @@ GameObject:
   - component: {fileID: 1488780533}
   m_Layer: 0
   m_Name: Rocks 1
-  m_TagString: Untagged
+  m_TagString: Bumps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8224,7 +8281,7 @@ GameObject:
   - component: {fileID: 1493873565}
   m_Layer: 0
   m_Name: House 1 (2)
-  m_TagString: Untagged
+  m_TagString: Bumps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8334,7 +8391,7 @@ GameObject:
   - component: {fileID: 1512348827}
   m_Layer: 0
   m_Name: Rocks and Trees In Between
-  m_TagString: Untagged
+  m_TagString: Bumps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8393,7 +8450,7 @@ GameObject:
   - component: {fileID: 1534394891}
   m_Layer: 0
   m_Name: Rocks 1 (8)
-  m_TagString: Untagged
+  m_TagString: Bumps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8504,7 +8561,7 @@ GameObject:
   - component: {fileID: 1552119116}
   m_Layer: 0
   m_Name: House 3 (1)
-  m_TagString: Untagged
+  m_TagString: Bumps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8699,7 +8756,7 @@ GameObject:
   - component: {fileID: 1584299085}
   m_Layer: 0
   m_Name: Rocks 1 (1)
-  m_TagString: Untagged
+  m_TagString: Bumps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8810,7 +8867,7 @@ GameObject:
   - component: {fileID: 1586184293}
   m_Layer: 0
   m_Name: House 2 (2)
-  m_TagString: Untagged
+  m_TagString: Bumps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8921,7 +8978,7 @@ GameObject:
   - component: {fileID: 1640082782}
   m_Layer: 0
   m_Name: Tree 4 (5)
-  m_TagString: Untagged
+  m_TagString: Bumps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9032,7 +9089,7 @@ GameObject:
   - component: {fileID: 1678231632}
   m_Layer: 0
   m_Name: Rocks 1 (16)
-  m_TagString: Untagged
+  m_TagString: Bumps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9143,7 +9200,7 @@ GameObject:
   - component: {fileID: 1710402467}
   m_Layer: 0
   m_Name: Rocks 1 (4)
-  m_TagString: Untagged
+  m_TagString: Bumps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9338,7 +9395,7 @@ GameObject:
   - component: {fileID: 1719234282}
   m_Layer: 0
   m_Name: Tree 4 (7)
-  m_TagString: Untagged
+  m_TagString: Bumps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9449,7 +9506,7 @@ GameObject:
   - component: {fileID: 1720800839}
   m_Layer: 0
   m_Name: Rocks 1 (13)
-  m_TagString: Untagged
+  m_TagString: Bumps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9644,7 +9701,7 @@ GameObject:
   - component: {fileID: 1754413125}
   m_Layer: 0
   m_Name: Tree 4 (3)
-  m_TagString: Untagged
+  m_TagString: Bumps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9755,7 +9812,7 @@ GameObject:
   - component: {fileID: 1762517904}
   m_Layer: 0
   m_Name: Tree 2 (5)
-  m_TagString: Untagged
+  m_TagString: Bumps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9866,7 +9923,7 @@ GameObject:
   - component: {fileID: 1766792520}
   m_Layer: 0
   m_Name: Rocks 1 (9)
-  m_TagString: Untagged
+  m_TagString: Bumps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9977,7 +10034,7 @@ GameObject:
   - component: {fileID: 1781631943}
   m_Layer: 0
   m_Name: Tree 2 (4)
-  m_TagString: Untagged
+  m_TagString: Bumps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10088,7 +10145,7 @@ GameObject:
   - component: {fileID: 1822843226}
   m_Layer: 0
   m_Name: Tree 4 (1)
-  m_TagString: Untagged
+  m_TagString: Bumps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10199,7 +10256,7 @@ GameObject:
   - component: {fileID: 1861913443}
   m_Layer: 0
   m_Name: Rocks 1 (6)
-  m_TagString: Untagged
+  m_TagString: Bumps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10730,7 +10787,7 @@ GameObject:
   - component: {fileID: 2007065594}
   m_Layer: 0
   m_Name: Rocks 1 (17)
-  m_TagString: Untagged
+  m_TagString: Bumps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10841,8 +10898,8 @@ GameObject:
   - component: {fileID: 2008076596}
   - component: {fileID: 2008076599}
   m_Layer: 0
-  m_Name: Circle
-  m_TagString: Untagged
+  m_Name: Boost
+  m_TagString: Boost
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10857,7 +10914,7 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -10923,7 +10980,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2008076595}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.86, y: 0, z: 0}
+  m_LocalPosition: {x: 35.4, y: 0, z: 0}
   m_LocalScale: {x: 1.8485, y: 1.8485, z: 1.8485}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -11048,7 +11105,7 @@ GameObject:
   - component: {fileID: 2057227856}
   m_Layer: 0
   m_Name: Tree 1 (1)
-  m_TagString: Untagged
+  m_TagString: Bumps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11159,7 +11216,7 @@ GameObject:
   - component: {fileID: 2074176730}
   m_Layer: 0
   m_Name: Tree 4
-  m_TagString: Untagged
+  m_TagString: Bumps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11465,7 +11522,7 @@ GameObject:
   - component: {fileID: 2146361189}
   m_Layer: 0
   m_Name: House 2
-  m_TagString: Untagged
+  m_TagString: Bumps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

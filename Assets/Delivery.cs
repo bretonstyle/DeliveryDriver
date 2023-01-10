@@ -12,15 +12,26 @@ public class Delivery : MonoBehaviour
     [SerializeField] float destroyDelay = 0.5f;
 
     SpriteRenderer spriteRenderer;
-    
+    float bumpTime;
     void Start()
     {
         //Driver is attached to the same component (SpeedyCivic), so is the Sprite Renderer
         playerOne = GetComponent<Driver>();
         spriteRenderer = GetComponent<SpriteRenderer>();
     }
-    void OnCollisionEnter2D(Collision2D other) {
-        Debug.Log("Whoops!");
+
+    void Update() {
+        if (Time.time > bumpTime + 5f ){
+            playerOne.moveSpeed = playerOne.normalSpeed;
+        }
+
+    }
+
+    async void OnCollisionEnter2D(Collision2D other) {
+        playerOne.moveSpeed = playerOne.slowSpeed;
+        Debug.Log ("Bumped");
+        bumpTime = Time.time;
+        Debug.Log ("Current Time:" + bumpTime.ToString());
     }
 
     void OnTriggerEnter2D(Collider2D other) {
@@ -38,6 +49,13 @@ public class Delivery : MonoBehaviour
             hasPackage = false;
             playerOne.SetScore(playerOne.GetScore() + 1);
             Debug.Log("New score ==" + playerOne.GetScore());
+        }
+        else if (other.tag =="Boost")
+        {
+            Destroy(other.gameObject, destroyDelay);
+            Debug.Log("Boost!");
+            playerOne.moveSpeed = playerOne.boostSpeed;
+            bumpTime = Time.time;
         }
     }
 }
